@@ -1,20 +1,3 @@
-PROGRAM: Linear Codes in action by Imad Salmi & Roger Miquel
-
-A linear code is a type of error-correcting code used in information theory and coding theory. It is characterized by its linearity property, which means that the sum of any two codewords in the code is also a codeword. Linear codes are widely employed in communication systems to detect and correct errors that may occur during data transmission.
-
-Linear codes are associated with two important matrices – the generator matrix (G) and the parity-check matrix (H). The generator matrix defines the linear transformation used to encode the information, while the parity-check matrix is utilized for error detection and correction.
-
-The parameters of a linear code are typically denoted as (n, k, δ), where:
-n is the length of the codeword.
-k is the dimension of the code, representing the number of information bits.
-δ is the minimum Hamming distance between any two distinct codewords, indicating the error-detecting and error-correcting capabilities of the code.
-To encode a message using a linear code, the information bits are multiplied by the generator matrix (G), resulting in a codeword. Mathematically, the encoding process can be expressed as c = m * G, where 'c' is the codeword and 'm' is the vector of information bits.
-
-Decoding involves the use of the parity-check matrix (H) to identify and correct errors. The received codeword is multiplied by the transpose of the parity-check matrix (HT). If the result is a zero vector, no errors are detected. Otherwise, the non-zero syndrome obtained is used to locate and correct errors.
-
-Linear codes can detect errors when the minimum Hamming distance (d) is greater than one. If errors are detected, the code can correct errors if the minimum Hamming distance is such that (d-1)/2 errors or fewer have occurred. This property is crucial for maintaining data integrity in the presence of noise during transmission.
-In summary, linear codes play a vital role in ensuring reliable communication by providing mechanisms for encoding, decoding, and error detection/correction. Their mathematical structure, involving generator and parity-check matrices, enables efficient and effective handling of errors in various communication systems.
-
 The functions of our code are the following ones:
 
 def compute_Gcan_and_H(generators):
@@ -48,4 +31,6 @@ How to Use:
         git clone https://github.com/RogerCivit17/linearcodes.git
 
     In the file "linearcodes.py" are all these functions that we have explained bellow.
+
+    So you only have to execute this file if you want to see the results of the different tests or import it to another file if you want to use the functions.
 
