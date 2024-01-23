@@ -40,3 +40,12 @@ def detect_and_correct(Gcan, C_bits):
     # Returns the corrected and decoded bits if successful, else None
 
 Finally, in the main of the program, we provide some examples and tests of the functions.
+
+How to Use:
+
+    Clone the repository:
+
+        git clone https://github.com/RogerCivit17/linearcodes.git
+
+    In the file "linearcodes.py" are all these functions that we have explained bellow.
+
