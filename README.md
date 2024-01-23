@@ -30,7 +30,7 @@ How to Use:
 
         git clone https://github.com/RogerCivit17/linearcodes.git
 
-    In the file "linearcodes.py" are all these functions that we have explained bellow.
+    In the file "linearcodes.py" are all these functions that we have explained above.
 
     So you only have to execute this file if you want to see the results of the different tests or import it to another file if you want to use the functions.
 
